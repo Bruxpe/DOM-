@@ -17,13 +17,13 @@
 // Ayuda: usar 'this' en el constructor
 
 function ToDo (description) {
-  // Tu código acá:
-  
+  // Tu código acá:sdsd
+  asasa
 }
 
 
 // Agregar un método denominado 'completeToDo' al prototipo de la clase ToDo
-// No requiere ningún argumento
+// No requiere ningún argumentoasdsa
 // Debe setear el atributo 'complete' del ToDo en true
 
 // Tu código acá:
