@@ -11,12 +11,25 @@
     p {
       padding:0 15px;
     }
+    .fondo{
+      width: 60%;
+      justify-content: center;
+      margin-top: 0.5em;
+    }
+    @media screen and( max-width: @phone){ 
+      .fonfo{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5% ;
+      }
+    }
 
   }
+ 
 
   .music-images {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: wrap;
     width: 100%;
 
     img {
@@ -25,6 +38,15 @@
       border-radius: 20px;
       height: 100%;
     }
+    @media screen and (max-width: @phone){ 
+      .auricular{
+        width: 80%;
+        margin-left: 2.5%; 
+        margin-right: 2.5%;
+      }
+      .ondas, .tecnologia{
+        display: none;
+      }
   }
 
   .musica-nueva {
@@ -45,6 +67,7 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    flex-direction: column-reverse;
 
     .actual-text {
       width: 50%;
@@ -58,6 +81,8 @@
       }
 
       .btn {
+       .button(fit-content;  fit-content ; 1em; 1.2em)
+        
       }
     }
 
@@ -71,5 +96,29 @@
         border-radius: 10px;
       }
     }
+    @media screen and (max-width: @phone) {
+      flex-direction: column-reverse;
+      padding: 0px;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+
+      .phoneWidth{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+
+      }
+
+      .actual-img, .actual-text{
+        .phoneWidth()
+
+      }
+
+      .actual-img{
+        margin-top: 1em;
+      }
+    }
+  }
+
   }
 }
