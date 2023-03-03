@@ -1,0 +1,151 @@
+*{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px
+}
+body{
+    background-image:url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg');
+}
+div{
+    border-radius: 20px;
+}
+#general{
+    background-image: url('https://i.pinimg.com/originals/7e/3a/f0/7e3af0548758dd0af1effd4c7acbd4d8.jpg');
+    border: solid 3px;
+    border-radius: 80px;
+    margin: auto;
+    text-align: center;
+    width: 960px;
+    height: 800px;
+    background-color: rgb(47, 161, 161);
+
+    
+}
+#izquierda{
+    background-color: transparent;
+    border: solid 8px;
+    margin-left: 10px;
+    position: absolute;
+    width: 500px;
+    height: 570px;
+    margin-top: 50px;
+    
+}
+button {
+    background-color: rgb(107, 143, 126);
+    border-radius:10px;
+
+    width: 50%;
+    height: 10%;
+    margin-top: 10px;
+}
+#boton{
+    font-size: 30px;
+}
+#xxx{
+    display: flex;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+li{
+    border: 2px solid rgb(200, 193, 193);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#arribaderecha{
+    display: flex;
+    justify-content: center;
+    border: solid 8px black;
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 12px;
+    background-color: transparent;
+    align-items: center;
+    flex-direction: column;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    width: 150px;
+    height: 50px;
+    
+}
+
+#input{
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(184, 179, 179);
+    border-radius: 10px;
+}
+ #amigo{
+    display: flex;
+    margin-top: 20px;
+    font-size: 30px;
+ }
+ #abajoderecha{
+    border: solid 8px black;
+    margin: 2px;
+    position: absolute;
+    bottom: 385px;
+    right: 0px;
+    left: 1120px;
+    margin-top: 50px;
+    width: 400px;
+    height: 290px;
+    
+    background-color: transparent;
+ }
+
+ #contenido{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #delete{
+    
+    margin: 30px;
+    margin-left: 100px;
+    font-size: 25px;
+        
+}
+
+#inputDelete{
+    width: 180px;
+    margin-left: 100px;
+    font-size: 40px;
+    display: flex;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+    height: 50px;
+    text-align: center;
+    background-color: rgb(184, 179, 179);
+    border-radius: 10px;
+}
+
+#success{
+    display: flex;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+
+}
