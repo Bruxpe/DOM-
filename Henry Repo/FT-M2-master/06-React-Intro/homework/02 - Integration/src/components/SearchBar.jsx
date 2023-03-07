@@ -1,8 +1,9 @@
-export default function SearchBar(props) {
+function SearchBar({onSearch}) { //? recibe una funcion
    return (
       <div>
-         {/* <input type='search' />
-      <button onClick={}>Agregar</button> */}
+          <input type='search' />
+      <button onClick={onSearch }>Agregar</button> 
       </div>
    );
 }
+export default SearchBar
