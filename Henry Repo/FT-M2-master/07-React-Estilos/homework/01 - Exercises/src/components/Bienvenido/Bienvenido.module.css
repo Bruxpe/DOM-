@@ -1,3 +1,7 @@
+/*Aplicarás al componente Bienvenido.jsx----> **module.css** 
+e inline styling.
+Aplicarás al componente Botones.jsx ----> ***styled components.
+****/
 .divBienvenido {
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
-  color: rgb(26, 26, 130)
+  color: rgb(207, 14, 14)
 }
 
 .subtitle {
